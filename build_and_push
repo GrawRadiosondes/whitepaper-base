@@ -1,0 +1,6 @@
+#!/bin/bash
+
+clear
+
+# build and push the image
+docker buildx build --platform linux/amd64 -t grawradiosondes/whitepaper-base:latest --push .

@@ -1,1 +1,1 @@
-# whitepaper-base
+# Whitepaper Base
