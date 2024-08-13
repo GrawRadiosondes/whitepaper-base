@@ -11,8 +11,10 @@ RUN apt install -y tzdata
 
 # install tex & other deps
 RUN apt install -y texlive-latex-recommended
+
 RUN apt install -y texlive-latex-extra
 RUN apt install -y texlive-bibtex-extra
+RUN apt install -y texlive-science
 RUN apt install -y texlive-xetex
 RUN apt install -y inkscape
 RUN apt install -y biber
