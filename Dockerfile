@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 # apt update/upgrade & apt-utils
-RUN apt update && apt upgrade
+RUN apt update && apt upgrade -y
 RUN apt install -y apt-utils
 
 # timezone needed for texlive
